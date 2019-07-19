@@ -33,14 +33,17 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
-
+The difference between an adaptive website and a fully fuctional website is that an adaptive website has several different layouts depending on the screen size it will be viewed in. A fully responsive website will autmatically resize and adjust to whatever screen size it is being viewd on.
 2. Describe what it means to be mobile first vs desktop first.
-
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
+A mobile first website is designed with a mobile view in mind. It is the mdified to be viewed on other devices like tablets and desktops. A desktop first the site is developed based on how it would look in a desktop screen. It will then be modified to be viewed on different devices like tablets and phones..
+3. What does font-size: 62.5% in the html tag do for us when using rem units?
+On computers with default font of 16px, it cause 1rem to equal 10px, which makes changing font sizing easier to figure out.
 4. How would you describe preprocessing to someone new to CSS?
+I would say a preprocesser lets you use a different set of syntax in a program. It makes codeing more organized and easier to work with.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is variables. It makes adding and making changes to code much quicker. The cocept that gives me the most trouble is parametric mixins beacuse they can get a little confusing when they contain a lot of different arguments. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

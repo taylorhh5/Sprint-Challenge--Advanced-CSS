@@ -5,7 +5,7 @@
   .intro {
 
     h2 {
-      padding: 15px;
+      padding: 10px;
     }
 
     p {
@@ -17,6 +17,7 @@
   .mainpic{
     
     width:100%;
+    
   }
 
   .space-images {
@@ -24,22 +25,26 @@
     flex-wrap: wrap;
     width: 100%;
 
-    @media @phone {
-      width:300%;
+    .blast{
+      @media @phone {
+      width: 100%;
 
+      }
     }
 
     .launch{
+      
       @media @phone {
+        .none
 
-        display:none;
+    
       }
     }
 
     .sky{
       @media @phone {
-
-        display:none;
+        .none
+        
       }
     }
 
@@ -79,8 +84,9 @@
     @media @phone{
       display:flex;
       flex-direction: column-reverse;
-      
+      padding-left: 2rem;
       width:100%;
+     margin-top:0px;
       
     
     }
@@ -90,6 +96,7 @@
 
       @media @phone{
         width:100%;
+        padding-left:4%;
       }
 
       h3 {
@@ -104,7 +111,7 @@
         .bottom-button();
 
         @media @phone{
-          .bottom-button(hsl(240, 86%, 11%), 100%, 6rem)
+          .bottom-button(hsl(240, 86%, 11%), 100%, 6rem, 2rem)
           
         }
     
@@ -122,6 +129,7 @@
         margin-right: 29px;
         margin-bottom: 20px;
         
+        
       }
       
       img {
@@ -129,6 +137,7 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+        
       }
     }
     
