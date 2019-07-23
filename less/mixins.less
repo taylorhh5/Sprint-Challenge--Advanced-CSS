@@ -1,1 +1,32 @@
 // Mixins Here
+
+.bottom-button (@bg-color:hsl(240, 86%, 11%), @width: 10rem, @height:3rem, @pad:1% ){
+    
+    background-color: @bg-color;
+    width: @width;
+    height: @height;
+    border-radius:7px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: @pad;
+    color: white;
+    font-weight: 600;
+
+    &:hover{
+        background:white ;
+        color:hsl(240, 86%, 11%);
+
+    }
+
+}
+
+
+.none{
+    display: none;
+    }
+.center{
+    text-align: center;
+}
+
+
+@phone: ~'(max-width: 500px)';
